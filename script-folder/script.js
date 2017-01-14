@@ -36,8 +36,8 @@ var compare = function(choice1, choice2)
             return "scissors win"
         }
     }
-    if (choice1 !== "scissors" + "rock" + "paper") {
+    if (choice1 !== "scissors" || choice1 !== "rock" || choice1 !== "paper") {
         prompt("Invalid, please choose between rock, paper and or scissors.");
     }
 };
-compare(userChoice, computerChoice);
+document.write(compare(userChoice, computerChoice));
