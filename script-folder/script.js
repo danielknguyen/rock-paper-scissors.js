@@ -40,4 +40,4 @@ var compare = function(choice1, choice2)
         prompt("Invalid, please choose between rock, paper and or scissors.");
     }
 };
-document.write(compare(userChoice, computerChoice));
+console.log(compare(userChoice, computerChoice));
